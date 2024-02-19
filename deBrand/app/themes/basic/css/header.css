@@ -1,0 +1,23 @@
+header img
+{
+    float: left;
+    vertical-align: middle;
+}
+
+header .logotitle
+{
+    font-size: 20pt;
+    color: var(--content-basic-color-2);
+}
+
+header .logotitle span
+{
+    color: var(--primaire-color);
+    font-size: 24pt;
+}
+
+header .logotitle .subtitle
+{
+    color: var(--secondair-color-2);
+    
+}

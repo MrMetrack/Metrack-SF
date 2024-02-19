@@ -1,0 +1,535 @@
+[19-Feb-2024 17:23:04 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class "system\lib\FileHandler\FileHandler" not found in /volume1/web/deBrand/app/controllers/Blogs.php:143
+Stack trace:
+#0 /volume1/web/deBrand/app/controllers/Blogs.php(138): app\controllers\Blogs::writeContentFile('&lt;div&gt;Er w...', 'itsalive-202402...')
+#1 /volume1/web/deBrand/app/controllers/Blogs.php(65): app\controllers\Blogs::updateBlog(2, 'It&#039;s a new...', '&lt;div&gt;Er w...', 'itsalive-202402...')
+#2 [internal function]: app\controllers\Blogs::readAndedit()
+#3 /volume1/web/deBrand/system/Router.php(154): call_user_func('app\\controllers...')
+#4 /volume1/web/deBrand/system/Bootstrap.php(42): system\Router->callController()
+#5 /volume1/web/deBrand/public/index.php(51): system\Bootstrap::run()
+#6 {main}
+  thrown in /volume1/web/deBrand/app/controllers/Blogs.php on line 143
+[19-Feb-2024 17:24:20 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class "system\lib\FileHandler\FileHandler" not found in /volume1/web/deBrand/app/controllers/Blogs.php:143
+Stack trace:
+#0 /volume1/web/deBrand/app/controllers/Blogs.php(138): app\controllers\Blogs::writeContentFile('&lt;div&gt;Er w...', 'itsalive-202402...')
+#1 /volume1/web/deBrand/app/controllers/Blogs.php(65): app\controllers\Blogs::updateBlog(2, 'It&#039;s a new...', '&lt;div&gt;Er w...', 'itsalive-202402...')
+#2 [internal function]: app\controllers\Blogs::readAndedit()
+#3 /volume1/web/deBrand/system/Router.php(154): call_user_func('app\\controllers...')
+#4 /volume1/web/deBrand/system/Bootstrap.php(42): system\Router->callController()
+#5 /volume1/web/deBrand/public/index.php(51): system\Bootstrap::run()
+#6 {main}
+  thrown in /volume1/web/deBrand/app/controllers/Blogs.php on line 143
+[19-Feb-2024 18:08:05 Europe/Amsterdam] PHP Warning:  Undefined array key "UserId" in /volume1/web/deBrand/app/controllers/Blogs.php on line 73
+[19-Feb-2024 18:08:05 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 18:08:05 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 18:08:05 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 18:08:05 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 18:08:05 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 18:08:05 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 19:25:11 Europe/Amsterdam] PHP Warning:  Undefined array key "UserId" in /volume1/web/deBrand/app/controllers/Blogs.php on line 74
+[19-Feb-2024 19:25:11 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 19:25:11 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 19:25:11 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 19:25:11 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 19:25:11 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 19:25:11 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 20:31:31 Europe/Amsterdam] PHP Warning:  Undefined array key "UserId" in /volume1/web/deBrand/app/controllers/Blogs.php on line 97
+[19-Feb-2024 20:31:31 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 20:31:31 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 20:31:31 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 20:31:31 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 20:31:31 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 20:31:31 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 21:06:48 Europe/Amsterdam] PHP Fatal error:  Uncaught ArgumentCountError: file_exists() expects exactly 1 argument, 2 given in /volume1/web/deBrand/app/controllers/Blogs.php:159
+Stack trace:
+#0 /volume1/web/deBrand/app/controllers/Blogs.php(159): file_exists('/volume1/web/de...', 'blog_2024021909...')
+#1 /volume1/web/deBrand/app/controllers/Blogs.php(58): app\controllers\Blogs::createBlog(Array)
+#2 [internal function]: app\controllers\Blogs::create()
+#3 /volume1/web/deBrand/system/Router.php(154): call_user_func('app\\controllers...')
+#4 /volume1/web/deBrand/system/Bootstrap.php(42): system\Router->callController()
+#5 /volume1/web/deBrand/public/index.php(51): system\Bootstrap::run()
+#6 {main}
+  thrown in /volume1/web/deBrand/app/controllers/Blogs.php on line 159
+[19-Feb-2024 21:07:29 Europe/Amsterdam] PHP Fatal error:  Uncaught ArgumentCountError: file_exists() expects exactly 1 argument, 2 given in /volume1/web/deBrand/app/controllers/Blogs.php:159
+Stack trace:
+#0 /volume1/web/deBrand/app/controllers/Blogs.php(159): file_exists('/volume1/web/de...', 'blog_2024021909...')
+#1 /volume1/web/deBrand/app/controllers/Blogs.php(58): app\controllers\Blogs::createBlog(Array)
+#2 [internal function]: app\controllers\Blogs::create()
+#3 /volume1/web/deBrand/system/Router.php(154): call_user_func('app\\controllers...')
+#4 /volume1/web/deBrand/system/Bootstrap.php(42): system\Router->callController()
+#5 /volume1/web/deBrand/public/index.php(51): system\Bootstrap::run()
+#6 {main}
+  thrown in /volume1/web/deBrand/app/controllers/Blogs.php on line 159
+[19-Feb-2024 21:12:16 Europe/Amsterdam] PHP Warning:  Undefined array key "fullname" in /volume1/web/deBrand/app/controllers/Blogs.php on line 168
+[19-Feb-2024 21:12:16 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 21:12:16 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 21:12:16 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 21:12:16 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 21:12:16 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::create') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 21:12:16 Europe/Amsterdam] PHP   5. app\controllers\Blogs::create() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 21:12:16 Europe/Amsterdam] PHP   6. app\controllers\Blogs::createBlog($viewData = ['blog_file' => NULL, 'blog_title' => 'Iets nieuws', 'blog_content' => 'Hallo, dit is iets nieuws.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Effe checken wat hij doet.&lt;/div&gt;', 'editblog' => TRUE]) /volume1/web/deBrand/app/controllers/Blogs.php:58
+[19-Feb-2024 21:18:07 Europe/Amsterdam] PHP Warning:  Undefined array key "UserId" in /volume1/web/deBrand/app/controllers/Blogs.php on line 99
+[19-Feb-2024 21:18:07 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 21:18:07 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 21:18:07 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 21:18:07 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 21:18:07 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 21:18:07 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 21:18:13 Europe/Amsterdam] PHP Warning:  Undefined array key "UserId" in /volume1/web/deBrand/app/controllers/Blogs.php on line 99
+[19-Feb-2024 21:18:13 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 21:18:13 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 21:18:13 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 21:18:13 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 21:18:13 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 21:18:13 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 21:18:19 Europe/Amsterdam] PHP Warning:  Undefined array key "UserId" in /volume1/web/deBrand/app/controllers/Blogs.php on line 99
+[19-Feb-2024 21:18:19 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 21:18:19 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 21:18:19 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 21:18:19 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 21:18:19 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 21:18:19 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP Warning:  Undefined variable $successful in /volume1/web/deBrand/app/views/blogs/blog.php on line 44
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP   6. system\Controller::View($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 2, 'blog_title' => 'It&#039;s alive', 'blog_file' => 'itsalive-20240219115501', 'blog_userAccountsId' => 14, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => TRUE, 'blog_content' => '<div>Het is weer tot leve gekomen.</div><div><br></div><div><br></div><div>even kijken wat hij <b>Doet!!!!!</b></div>\n', 'blog_author' => 'Maarten Derks'], $themeData = *uninitialized*) /volume1/web/deBrand/app/controllers/Blogs.php:110
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP   7. system\Controller::getContent($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 2, 'blog_title' => 'It&#039;s alive', 'blog_file' => 'itsalive-20240219115501', 'blog_userAccountsId' => 14, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => TRUE, 'blog_content' => '<div>Het is weer tot leve gekomen.</div><div><br></div><div><br></div><div>even kijken wat hij <b>Doet!!!!!</b></div>\n', 'blog_author' => 'Maarten Derks']) /volume1/web/deBrand/system/Controller.php:23
+[19-Feb-2024 22:24:25 Europe/Amsterdam] PHP   8. require_once() /volume1/web/deBrand/system/Controller.php:53
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP Warning:  Undefined variable $successful in /volume1/web/deBrand/app/views/blogs/blog.php on line 44
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP   6. system\Controller::View($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 2, 'blog_title' => 'It&#039;s alive', 'blog_file' => 'itsalive-20240219115501', 'blog_userAccountsId' => 14, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => TRUE, 'blog_content' => '<div>Het is weer tot leve gekomen.</div><div><br></div><div><br></div><div>even kijken wat hij <b>Doet!!!!!</b></div>\n', 'blog_author' => 'Maarten Derks'], $themeData = *uninitialized*) /volume1/web/deBrand/app/controllers/Blogs.php:110
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP   7. system\Controller::getContent($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 2, 'blog_title' => 'It&#039;s alive', 'blog_file' => 'itsalive-20240219115501', 'blog_userAccountsId' => 14, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => TRUE, 'blog_content' => '<div>Het is weer tot leve gekomen.</div><div><br></div><div><br></div><div>even kijken wat hij <b>Doet!!!!!</b></div>\n', 'blog_author' => 'Maarten Derks']) /volume1/web/deBrand/system/Controller.php:23
+[19-Feb-2024 22:24:27 Europe/Amsterdam] PHP   8. require_once() /volume1/web/deBrand/system/Controller.php:53
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP Warning:  Undefined variable $successful in /volume1/web/deBrand/app/views/blogs/blog.php on line 44
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP   6. system\Controller::View($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 2, 'blog_title' => 'It&#039;s alive', 'blog_file' => 'itsalive-20240219115501', 'blog_userAccountsId' => 14, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => TRUE, 'blog_content' => '<div>Het is weer tot leve gekomen.</div><div><br></div><div><br></div><div>even kijken wat hij <b>Doet!!!!!</b></div>\n', 'blog_author' => 'Maarten Derks'], $themeData = *uninitialized*) /volume1/web/deBrand/app/controllers/Blogs.php:110
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP   7. system\Controller::getContent($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 2, 'blog_title' => 'It&#039;s alive', 'blog_file' => 'itsalive-20240219115501', 'blog_userAccountsId' => 14, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => TRUE, 'blog_content' => '<div>Het is weer tot leve gekomen.</div><div><br></div><div><br></div><div>even kijken wat hij <b>Doet!!!!!</b></div>\n', 'blog_author' => 'Maarten Derks']) /volume1/web/deBrand/system/Controller.php:23
+[19-Feb-2024 22:24:30 Europe/Amsterdam] PHP   8. require_once() /volume1/web/deBrand/system/Controller.php:53
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP Warning:  Undefined variable $successful in /volume1/web/deBrand/app/views/registreren.php on line 28
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Registreren::index') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP   5. app\controllers\Registreren::index() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP   6. system\Controller::View($viewfile = 'registreren', $viewdata = ['fullname' => NULL, 'username' => NULL, 'email' => NULL], $themeData = *uninitialized*) /volume1/web/deBrand/app/controllers/Registreren.php:52
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP   7. system\Controller::getContent($viewfile = 'registreren', $viewdata = ['fullname' => NULL, 'username' => NULL, 'email' => NULL]) /volume1/web/deBrand/system/Controller.php:23
+[19-Feb-2024 22:28:03 Europe/Amsterdam] PHP   8. require_once() /volume1/web/deBrand/system/Controller.php:53
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP Warning:  Undefined variable $successful in /volume1/web/deBrand/app/views/registreren.php on line 28
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Registreren::index') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP   5. app\controllers\Registreren::index() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP   6. system\Controller::View($viewfile = 'registreren', $viewdata = ['fullname' => NULL, 'email' => NULL], $themeData = *uninitialized*) /volume1/web/deBrand/app/controllers/Registreren.php:50
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP   7. system\Controller::getContent($viewfile = 'registreren', $viewdata = ['fullname' => NULL, 'email' => NULL]) /volume1/web/deBrand/system/Controller.php:23
+[19-Feb-2024 22:29:51 Europe/Amsterdam] PHP   8. require_once() /volume1/web/deBrand/system/Controller.php:53
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP Warning:  Undefined variable $successful in /volume1/web/deBrand/app/views/blogs/blog.php on line 44
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP   6. system\Controller::View($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 2, 'blog_title' => 'It&#039;s alive', 'blog_file' => 'itsalive-20240219115501', 'blog_userAccountsId' => 14, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => TRUE, 'blog_content' => '<div>Het is weer tot leve gekomen.</div><div><br></div><div><br></div><div>even kijken wat hij <b>Doet!!!!!</b></div>\n', 'blog_author' => 'Maarten Derks'], $themeData = *uninitialized*) /volume1/web/deBrand/app/controllers/Blogs.php:133
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP   7. system\Controller::getContent($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 2, 'blog_title' => 'It&#039;s alive', 'blog_file' => 'itsalive-20240219115501', 'blog_userAccountsId' => 14, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => TRUE, 'blog_content' => '<div>Het is weer tot leve gekomen.</div><div><br></div><div><br></div><div>even kijken wat hij <b>Doet!!!!!</b></div>\n', 'blog_author' => 'Maarten Derks']) /volume1/web/deBrand/system/Controller.php:23
+[19-Feb-2024 22:53:49 Europe/Amsterdam] PHP   8. require_once() /volume1/web/deBrand/system/Controller.php:53
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP Warning:  Undefined variable $successful in /volume1/web/deBrand/app/views/blogs/blog.php on line 44
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Blogs::readAndedit') /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP   5. app\controllers\Blogs::readAndedit() /volume1/web/deBrand/system/Router.php:154
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP   6. system\Controller::View($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 1, 'blog_title' => 'Hello World', 'blog_file' => 'helloworldblog-20240219115501', 'blog_userAccountsId' => 1, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => FALSE, 'blog_content' => 'Dit is hello world blog', 'blog_author' => 'anoniem'], $themeData = *uninitialized*) /volume1/web/deBrand/app/controllers/Blogs.php:133
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP   7. system\Controller::getContent($viewfile = 'blogs/blog', $viewdata = ['AuthorisedAccess' => TRUE, 'editblog' => TRUE, 'blog_blogId' => 1, 'blog_title' => 'Hello World', 'blog_file' => 'helloworldblog-20240219115501', 'blog_userAccountsId' => 1, 'blog_createdAt' => '2024-02-01 11:57:15', 'blog_updatedAt' => NULL, 'blog_deletedAt' => NULL, 'blog_owner' => FALSE, 'blog_content' => 'Dit is hello world blog', 'blog_author' => 'anoniem']) /volume1/web/deBrand/system/Controller.php:23
+[19-Feb-2024 22:53:59 Europe/Amsterdam] PHP   8. require_once() /volume1/web/deBrand/system/Controller.php:53
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 20
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 20
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 20
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:29 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:20
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:40 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:41 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:42 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:50 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:52 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:08:59 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:00 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:05 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:07 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:09:27 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:03 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:09 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'roles', $level = '2') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:14 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP Warning:  Array to string conversion in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP Warning:  Undefined variable $Array in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP Warning:  Trying to access array offset on value of type null in /volume1/web/deBrand/system/lib/Permission.php on line 19
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP Warning:  Undefined array key 2 in /volume1/web/deBrand/system/lib/Database.php on line 120
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP Stack trace:
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   4. system\lib\Permission::checkPermission($ruleAlias = 'users', $level = '1') /volume1/web/deBrand/system/Router.php:124
+[19-Feb-2024 23:10:17 Europe/Amsterdam] PHP   5. system\lib\Database->where($where = 'dfr_permissions.rolesId=', $operator = *uninitialized*) /volume1/web/deBrand/system/lib/Permission.php:19
