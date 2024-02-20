@@ -1,0 +1,53 @@
+
+@media screen and (max-width: 599px) {
+  nav div {
+      position: relative;
+      margin-left: -11%;
+      padding: 0px;
+    }
+  nav li {
+    color: var(--content-basic-color);
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    list-style: none;
+    float: left;
+    display: block;
+    margin-top: -16px;
+    background-color: var(--secondair-color-1);
+    transition: background-color 0.75s ease;
+  }
+}
+@media screen and (min-width: 600px) {
+  nav div {
+      position: relative;
+      margin-left: -50%;
+      padding: 0px;
+    }
+  nav li {
+    color: var(--content-basic-color);
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    list-style: none;
+    float: left;
+    display: block;
+    margin-top: -16px;
+    background-color: var(--secondair-color-1);
+    transition: background-color 0.75s ease;
+   
+  }
+}
+nav li:hover {
+  background-color: var(--accent-color-1);
+}
+
+nav li a {
+  color: var(--content-basic-color-1);
+  font-weight: 700;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  width: 25%;
+  height: 50px;
+}

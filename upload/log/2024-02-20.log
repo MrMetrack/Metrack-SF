@@ -1,0 +1,19 @@
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP Warning:  Undefined variable $successful in /volume1/web/deBrand/app/views/registreren.php on line 28
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP Stack trace:
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Registreren::index') /volume1/web/deBrand/system/Router.php:154
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP   5. app\controllers\Registreren::index() /volume1/web/deBrand/system/Router.php:154
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP   6. system\Controller::View($viewfile = 'registreren', $viewdata = ['fullname' => NULL, 'email' => NULL], $themeData = *uninitialized*) /volume1/web/deBrand/app/controllers/Registreren.php:50
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP   7. system\Controller::getContent($viewfile = 'registreren', $viewdata = ['fullname' => NULL, 'email' => NULL]) /volume1/web/deBrand/system/Controller.php:23
+[20-Feb-2024 07:15:01 Europe/Amsterdam] PHP   8. require_once() /volume1/web/deBrand/system/Controller.php:53
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /volume1/web/deBrand/system/lib/AuthorisedAccess.php on line 109
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP Stack trace:
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP   2. system\Bootstrap::run() /volume1/web/deBrand/public/index.php:51
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP   3. system\Router->callController() /volume1/web/deBrand/system/Bootstrap.php:42
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP   4. call_user_func:{/volume1/web/deBrand/system/Router.php:154}($callback = 'app\\controllers\\Logout::index') /volume1/web/deBrand/system/Router.php:154
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP   5. app\controllers\Logout::index() /volume1/web/deBrand/system/Router.php:154
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP   6. system\lib\AuthorisedAccess::logout() /volume1/web/deBrand/app/controllers/Logout.php:18
+[20-Feb-2024 07:36:09 Europe/Amsterdam] PHP   7. session_destroy() /volume1/web/deBrand/system/lib/AuthorisedAccess.php:109

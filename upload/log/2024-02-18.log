@@ -1,0 +1,91 @@
+[18-Feb-2024 19:15:22 Europe/Amsterdam] Hello, errors!
+[18-Feb-2024 19:16:00 Europe/Amsterdam] Hello, errors!
+[18-Feb-2024 19:16:25 Europe/Amsterdam] Hello, errors!
+[18-Feb-2024 19:16:25 Europe/Amsterdam] PHP Warning:  require_once(../system/En.php): Failed to open stream: No such file or directory in /volume1/web/deBrand/public/index.php on line 26
+[18-Feb-2024 19:16:25 Europe/Amsterdam] PHP Stack trace:
+[18-Feb-2024 19:16:25 Europe/Amsterdam] PHP   1. {main}() /volume1/web/deBrand/public/index.php:0
+[18-Feb-2024 19:16:25 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Failed opening required '../system/En.php' (include_path='.:/usr/share/pear') in /volume1/web/deBrand/public/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /volume1/web/deBrand/public/index.php on line 26
+[18-Feb-2024 19:16:30 Europe/Amsterdam] Hello, errors!
+[18-Feb-2024 19:16:58 Europe/Amsterdam] Hello, errors!
+[18-Feb-2024 19:22:40 Europe/Amsterdam] PHP Fatal error:  Uncaught Exception: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2 in /volume1/web/deBrand/public/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /volume1/web/deBrand/public/index.php on line 25
+[18-Feb-2024 19:25:36 Europe/Amsterdam] PHP Fatal error:  Uncaught Exception: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2 in /volume1/web/deBrand/public/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /volume1/web/deBrand/public/index.php on line 25
+[18-Feb-2024 19:26:44 Europe/Amsterdam] PHP Fatal error:  Uncaught Exception: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2 in /volume1/web/deBrand/public/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /volume1/web/deBrand/public/index.php on line 25
+[18-Feb-2024 19:26:49 Europe/Amsterdam] PHP Fatal error:  Uncaught Exception: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2 in /volume1/web/deBrand/public/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /volume1/web/deBrand/public/index.php on line 25
+[18-Feb-2024 19:27:05 Europe/Amsterdam] De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2
+[18-Feb-2024 19:27:05 Europe/Amsterdam] De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2
+[18-Feb-2024 19:27:29 Europe/Amsterdam] PHP WARMING: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2
+[18-Feb-2024 19:27:29 Europe/Amsterdam] PHP WARMING: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2
+[18-Feb-2024 19:27:49 Europe/Amsterdam] PHP Warning:: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2
+[18-Feb-2024 19:27:49 Europe/Amsterdam] PHP Warning:: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2
+[18-Feb-2024 19:27:49 Europe/Amsterdam] PHP Warning:: De huidige php versie voldoet niet aan de minimaal vereiste php. De server/hosting staat ingesteld op php versie 8.2.5. De minimaal vereiste php versie is 9.2
+[18-Feb-2024 19:29:39 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected token "if" in /volume1/web/deBrand/app/controllers/Login.php on line 20
+[18-Feb-2024 19:30:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected token ")" in /volume1/web/deBrand/app/controllers/Login.php on line 35
+[18-Feb-2024 19:30:21 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected token ")" in /volume1/web/deBrand/app/controllers/Login.php on line 35
+[18-Feb-2024 19:30:21 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected token ")" in /volume1/web/deBrand/app/controllers/Login.php on line 35
+[18-Feb-2024 19:30:21 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected token ")" in /volume1/web/deBrand/app/controllers/Login.php on line 35
+[18-Feb-2024 19:30:24 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected token ")" in /volume1/web/deBrand/app/controllers/Login.php on line 35
+[18-Feb-2024 19:31:24 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Undefined constant "system\_PPATH_" in /volume1/web/deBrand/system/Env.php:9
+Stack trace:
+#0 /volume1/web/deBrand/public/index.php(33): system\Env::parse()
+#1 {main}
+  thrown in /volume1/web/deBrand/system/Env.php on line 9
+[18-Feb-2024 19:31:26 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Undefined constant "system\_PPATH_" in /volume1/web/deBrand/system/Env.php:9
+Stack trace:
+#0 /volume1/web/deBrand/public/index.php(33): system\Env::parse()
+#1 {main}
+  thrown in /volume1/web/deBrand/system/Env.php on line 9
+[18-Feb-2024 19:32:06 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Undefined constant "system\_PPATH_" in /volume1/web/deBrand/system/Env.php:9
+Stack trace:
+#0 /volume1/web/deBrand/public/index.php(33): system\Env::parse()
+#1 {main}
+  thrown in /volume1/web/deBrand/system/Env.php on line 9
+[18-Feb-2024 19:33:10 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Undefined constant "system\_PPATH_" in /volume1/web/deBrand/system/Env.php:9
+Stack trace:
+#0 /volume1/web/deBrand/public/index.php(33): system\Env::parse()
+#1 {main}
+  thrown in /volume1/web/deBrand/system/Env.php on line 9
+[18-Feb-2024 19:33:38 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Undefined constant "system\_PPATH_" in /volume1/web/deBrand/system/Env.php:9
+Stack trace:
+#0 /volume1/web/deBrand/public/index.php(33): system\Env::parse()
+#1 {main}
+  thrown in /volume1/web/deBrand/system/Env.php on line 9
+[18-Feb-2024 19:33:40 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Undefined constant "system\_PPATH_" in /volume1/web/deBrand/system/Env.php:9
+Stack trace:
+#0 /volume1/web/deBrand/public/index.php(33): system\Env::parse()
+#1 {main}
+  thrown in /volume1/web/deBrand/system/Env.php on line 9
+[18-Feb-2024 19:33:51 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Undefined constant "system\_PPATH_" in /volume1/web/deBrand/system/Env.php:9
+Stack trace:
+#0 /volume1/web/deBrand/public/index.php(33): system\Env::parse()
+#1 {main}
+  thrown in /volume1/web/deBrand/system/Env.php on line 9
+[18-Feb-2024 19:34:28 Europe/Amsterdam] Systeem staat in modus development
+[18-Feb-2024 19:34:28 Europe/Amsterdam] 1
+[18-Feb-2024 19:34:45 Europe/Amsterdam] Systeem staat in modus development
+[18-Feb-2024 19:34:45 Europe/Amsterdam] 1
+[18-Feb-2024 19:34:45 Europe/Amsterdam] PHP Parse error:  Unclosed '{' on line 12 in /volume1/web/deBrand/app/controllers/Login.php on line 37
+[18-Feb-2024 19:34:45 Europe/Amsterdam] Systeem staat in modus development
+[18-Feb-2024 19:34:45 Europe/Amsterdam] 1
+[18-Feb-2024 19:34:45 Europe/Amsterdam] Systeem staat in modus development
+[18-Feb-2024 19:34:45 Europe/Amsterdam] 1
+[18-Feb-2024 19:35:11 Europe/Amsterdam] Systeem staat in modus development
+[18-Feb-2024 19:35:11 Europe/Amsterdam] 0
+[18-Feb-2024 19:35:11 Europe/Amsterdam] PHP Parse error:  Unclosed '{' on line 12 in /volume1/web/deBrand/app/controllers/Login.php on line 37
+[18-Feb-2024 19:36:22 Europe/Amsterdam] PHP Parse error:  Unclosed '{' on line 12 in /volume1/web/deBrand/app/controllers/Login.php on line 37
+[18-Feb-2024 19:36:23 Europe/Amsterdam] PHP Parse error:  Unclosed '{' on line 12 in /volume1/web/deBrand/app/controllers/Login.php on line 37
+[18-Feb-2024 19:36:25 Europe/Amsterdam] PHP Parse error:  Unclosed '{' on line 12 in /volume1/web/deBrand/app/controllers/Login.php on line 37
