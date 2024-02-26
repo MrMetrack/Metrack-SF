@@ -125,14 +125,6 @@ CREATE TABLE `dfr_userAccounts` (
   `RolesId` tinyint(1) NOT NULL DEFAULT 2
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
---
--- Gegevens worden geëxporteerd voor tabel `dfr_userAccounts`
---
-
-INSERT INTO `dfr_userAccounts` (`id`, `username`, `email`, `password`, `name`, `RolesId`) VALUES
-(14, 'mpjderks@outlook.com', 'mpjderks@outlook.com', '$2y$10$hfabbhuZwrBSylmw7i24Y.gPAQWulZJTup3krt5AWTl2/L8tKPabq', 'Maarten Derks', 1),
-(15, 'maarten@derksclan.nl', 'maarten@derksclan.nl', '$2y$10$5AnIhtGe9t47KU.sYHkTpe6pzE7EkfAlNEC07TwEH8BJ4ul4Da1sW', 'Harold Derks', 2),
-(16, 'mail.mderks@gmail.com', 'mail.mderks@gmail.com', '$2y$10$GbudgHR6zcjWXsAgtQwlfucsYhBcRXqeH0Ou/ANvyClzynIHU4Ma.', 'Bert Bonen', 2);
 
 --
 -- Indexen voor geëxporteerde tabellen
