@@ -22,7 +22,7 @@ k<html>
         <header>
             <img src="<?= __BASEURL__; ?>/img/logo.jpeg" width="100px" height="100px">
             <span class="logotitle">
-                <h1><span>de</span>Brand Rocks <span class="subtitle">SF</span></h1>
+                <h1><span>mr.</span> Metrack <span class="subtitle">SF</span></h1>
             </span>
 
         </header>
