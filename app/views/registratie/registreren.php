@@ -1,5 +1,5 @@
 <h1>Registeren</h1>
-<h2>Becomes a <span class="word">Brand</span> new user</h2>
+<h2>Registreer je als nieuwe gebruiker.</h2>
 
 <?php
 
