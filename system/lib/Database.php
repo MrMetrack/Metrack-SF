@@ -184,8 +184,8 @@ class Database
 
     /**
      * update
-     * Deze functie voert de database SELECT actie uit.
-     * Deze functie stuurd de opgehaalde data retour.
+     * Deze functie voert de database update actie uit.
+     * Deze functie zal de opgegeven velden bijwerken. 
      * @param  array $data - dit betreft de data die bijgewerkt wordt in de datatable.
      * @return void return 1 als actie is voltooid en 0 als dit niet is gelukt.
      */
@@ -219,7 +219,13 @@ class Database
             return 0;
         }
     }
-
+     
+    /**
+     * delete
+     * Deze functie voert de database delete actie uit.
+     * Deze functie verwijderd de data die voldoet aan de voorwaardes die ingesteld zijn met de where functie.
+     * @return void return 1 als actie is voltooid en 0 als dit niet is gelukt.
+     */
   public function delete()
     {
         try {
