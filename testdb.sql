@@ -38,16 +38,7 @@ CREATE TABLE `dfr_blogs` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Gegevens worden geëxporteerd voor tabel `dfr_blogs`
---
-
-INSERT INTO `dfr_blogs` (`blogId`, `title`, `file`, `userAccountsId`, `createdAt`, `updatedAt`, `deletedAt`) VALUES
-(1, 'Hello World1', 'helloworldblog-20240219115501', 1, '2024-02-01 11:57:15', NULL, NULL),
-(2, 'It&#039;s alive', 'itsalive-20240219115501', 14, '2024-02-01 11:57:15', NULL, NULL),
-(3, 'Iets nieuws', 'blog_20240219091740_jlTNi', 14, '2024-02-19 21:17:40', NULL, NULL),
-(4, 'De wereld is groen', 'blog_20240219094525_b0iUK', 14, '2024-02-19 21:45:25', NULL, NULL),
-(5, 'Groente eten is slecht', 'blog_20240219105911_dGHDq', 15, '2024-02-19 22:59:11', NULL, NULL);
-
+-- 
 -- --------------------------------------------------------
 
 --
