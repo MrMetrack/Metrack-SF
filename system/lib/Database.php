@@ -220,7 +220,34 @@ class Database
         }
     }
 
+  public function delete()
+    {
+        try {
 
+            $fields = "";
+            foreach ($data as $key => $val) {
+                $fields .= $fields == "" ? "{$key}=?" : ", {$key}=?";
+                $val = $this->cleanUpValue($val);
+                $values[] = $val;
+            }
+            foreach ($this->executeParams as $v) {
+                $values[] = $v;
+            }
+
+            $string = "DELETE FROM {$this->table}";
+            $string .=  $this->addWhereQuery();
+
+            $result = $this->prepare($string);
+
+            $string = "";
+            $this->clearQueryStrings();
+
+            return $result->execute($values);
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+            return 0;
+        }
+    }
     /**
      * insert
      * Die functie voegt nieuwe data toe aan de opgegeven datatable.
