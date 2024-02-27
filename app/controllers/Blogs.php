@@ -213,6 +213,12 @@ class Blogs extends Controller
         self::writeContentFile($content, $filename);
     }
 
+    private static function deleteBlog($id, $filename)
+    {
+        $deletedb = new Database();
+        $deletedb->from("dfr_blogs")->where("blogId=" . $id)->delete();
+    }
+
     private static function writeContentFile($content, $file)
     {
         FileHandler::write(_UPLOADDIR_ . "/blogs/", $file . ".html", html_entity_decode($content), "w");
@@ -228,4 +234,6 @@ class Blogs extends Controller
         }
         return $randomString;
     }
+
+    
 }
