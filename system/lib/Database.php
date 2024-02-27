@@ -162,20 +162,13 @@ class Database
     public function get()
     {
         try {
-
-            $conn = $this->connect();
-            $conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
-
             $string = "SELECT {$this->selectfields} FROM {$this->table}";
-            if ($this->JoinQuery != null) {
-                $string .= " {$this->JoinQuery}";
-            }
-            if ($this->WhereQueryString != null) {
-                $string .= " WHERE {$this->WhereQueryString}";
-            }
 
+            $string .= $this->addJoinQuery();
 
-            $result = $conn->prepare($string);
+            $string .=  $this->addWhereQuery();
+
+            $result = $this->prepare($string);
 
 
 
@@ -200,9 +193,6 @@ class Database
     {
         try {
 
-            $conn = $this->connect();
-            $conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
-
             $fields = "";
 
 
@@ -216,11 +206,9 @@ class Database
             }
 
             $string = "UPDATE {$this->table} SET {$fields}";
-            if ($this->WhereQueryString != null) {
-                $string .= " WHERE {$this->WhereQueryString}";
-            }
+            $string .=  $this->addWhereQuery();
 
-            $result = $conn->prepare($string);
+            $result = $this->prepare($string);
 
             $string = "";
             $this->clearQueryStrings();
@@ -242,8 +230,6 @@ class Database
     public function insert($data)
     {
         try {
-            $conn = $this->connect();
-            $conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
 
             $fields = "";
             $values = [];
@@ -256,8 +242,7 @@ class Database
             }
 
             $string = "INSERT INTO {$this->table} ({$fields}) VALUES ({$marker})";
-            echo $string;
-            $result = $conn->prepare($string);
+            $result = $this->prepare($string);
 
             return $result->execute($values);
         } catch (PDOException $e) {
@@ -266,7 +251,35 @@ class Database
         }
     }
 
+    /**
+     * insert
+     * Die functie voegt nieuwe data toe aan de opgegeven datatable.
+     * @param  mixed $data - dit betreft de nieuwe data die opgeslagen moet worden in de datatable.
+     * @return void return 1 als actie is voltooid en 0 als dit niet is gelukt.
+     */
+    public function save($data, $rowid)
+    {
+        try {
 
+            $fields = "";
+            $values = [];
+            $marker = "";
+            foreach ($data as $key => $val) {
+                $fields .= $fields == "" ? "{$key}" : ", {$key}";
+                $val = $this->cleanUpValue($val);
+                $values[] = $val;
+                ($marker == "") ? $marker .= "?" : $marker .= ", ?";
+            }
+
+            $string = "INSERT INTO {$this->table} ({$fields}) VALUES ({$marker}) ON DUPLICATE KEY UPDATE name="A", age=19";
+            $result = $this->prepare($string);
+
+            return $result->execute($values);
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+            return 0;
+        }
+    }
 
     /**
      * count
@@ -275,14 +288,10 @@ class Database
      */
     public function count()
     {
-        $conn = $this->connect();
-        $conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
-
         $string = "SELECT * FROM {$this->table}";
-        if ($this->WhereQueryString != null) {
-            $string .= " WHERE {$this->WhereQueryString}";
-        }
-        $result = $conn->prepare($string);
+        $string .=  $this->addWhereQuery();
+
+        $result = $this->prepare($string);
 
         $result->execute($this->executeParams);
         return $result->rowCount();
@@ -313,5 +322,25 @@ class Database
         $this->JoinQuery = "";
         $this->selectfields = "";
         $this->table = "";
+    }
+
+    protected function prepare($string)
+    {
+        try {
+            $conn = $this->connect();
+            $conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
+            return $conn->prepare($string);
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+    protected function addJoinQuery()
+    {
+        return ($this->JoinQuery != null) ? " {$this->JoinQuery}" : null;
+    }
+
+    protected function addWhereQuery()
+    {
+        return ($this->WhereQueryString != null) ? " WHERE {$this->WhereQueryString}" : null;
     }
 }
